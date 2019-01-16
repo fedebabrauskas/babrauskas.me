@@ -48,7 +48,6 @@ body {
 
 .navbar-brand {
   font-size: 1.25rem;
-  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -77,7 +76,6 @@ section {
 #home {
   background: linear-gradient(to right, #bfe9ff, #ff6e7f);
   margin: 0;
-  padding: 5rem;
 }
 
 #home .profile-image {
