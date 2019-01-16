@@ -158,8 +158,12 @@ section {
 
 /* Footer Content */
 footer {
-  padding: 4rem 0;
+  padding: 3rem 0;
   text-align: center;
+}
+
+footer p {
+  margin: 0;
 }
 
 .footer-title {
