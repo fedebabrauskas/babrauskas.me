@@ -2,31 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Federico Babrauskas</title>
-    <meta
-      name="description"
-      content="Hi! I'm Federico Babrauskas and I'm a Full Stack Javascript Web Developer"
-    />
-    <meta
-      name="keywords"
-      content="federico babrauskas, website, portfolio, full stack web developer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,600"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Assets and Stylesheets -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Meta Tags -->
+    <title>Federico Babrauskas | Personal Portfolio</title>
+    <meta name="description" content="I'm Federico Babrauskas and I'm a Full Stack Javascript Web Developer">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Federico Babrauskas | Personal Portfolio">
+    <meta property="og:description" content="I'm Federico Babrauskas and I'm a Full Stack Javascript Web Developer">
+    <meta property="og:image" content="https://babrauskas.me/img/federico_babrauskas.jpg">
+    <meta property="og:url" content="https://babrauskas.me">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Federico Babrauskas | Personal Portfolio">
+    <meta name="twitter:description" content="I'm Federico Babrauskas and I'm a Full Stack Javascript Web Developer">
+    <meta name="twitter:image" content="https://babrauskas.me/img/federico_babrauskas.jpg">
+
+    <!-- Download? -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132754257-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132754257-2');
+    </script>
   </head>
   <body>
     <header id="main-header">
@@ -47,12 +59,8 @@
 
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
               <li class="nav-item">
                 <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
@@ -64,7 +72,6 @@
         </div>
       </nav>
     </header>
-
     <main>
       <section class="jumbotron" id="home">
         <div class="container">
@@ -79,8 +86,8 @@
             I'm a Full Stack Web Developer, specialized in Javascript.
           </p>
           <p class="lead">
-            I'm passionate about solving problems and creating beautiful,
-            functional solutions.
+            I'm passionate about solving problems and creating beautiful, functional
+            solutions.
           </p>
         </div>
       </section>
@@ -93,25 +100,23 @@
               </h1>
               <p class="about-section__text" data-aos="zoom-in">
                 I'm a 20 years old self-taught
-                <strong>Full Stack Web Developer</strong>, currently specialized
-                in Javascript.
+                <strong>Full Stack Web Developer</strong>, currently specialized in
+                Javascript.
               </p>
               <p class="about-section__text" data-aos="zoom-in">
-                As a Full Stack Web Developer, I can integrate user-facing
-                elements with server side logic, combining both
-                <strong>Front-end</strong> and <strong>Back-end.</strong>
+                As a Full Stack Web Developer, I can integrate user-facing elements
+                with server side logic, combining both <strong>Front-end</strong> and
+                <strong>Back-end.</strong>
               </p>
               <p class="about-section__text" data-aos="zoom-in">
                 I work a lot with the
-                <strong
-                  >MERN Stack (MongoDB, Express, React and Node.js)</strong
-                >
+                <strong>MERN Stack (MongoDB, Express, React and Node.js)</strong>
                 which is the most popular tech-stack used nowadays.
               </p>
               <p class="about-section__text" data-aos="zoom-in">
                 I love playing with <strong>Real-Time</strong> and
-                <strong>IoT</strong>, I spend most of my time working with
-                projects that wraps <strong>Socket.io</strong> and
+                <strong>IoT</strong>, I spend most of my time working with projects
+                that wraps <strong>Socket.io</strong> and
                 <strong>Raspberry Pi.</strong>
               </p>
               <a
@@ -127,18 +132,13 @@
               <h1 class="display-5" data-aos="fade-top">My Pills</h1>
               <div class="skills-section__content">
                 <div class="skills-section__category">
-                  <h2
-                    class="skills-section__category-title"
-                    data-aos="fade-top"
-                  >
+                  <h2 class="skills-section__category-title" data-aos="fade-top">
                     Front-end
                   </h2>
                   <span class="skills-section__item" data-aos="flip-left"
                     >HTML5</span
                   >
-                  <span class="skills-section__item" data-aos="flip-left"
-                    >CSS3</span
-                  >
+                  <span class="skills-section__item" data-aos="flip-left">CSS3</span>
                   <span class="skills-section__item" data-aos="flip-left"
                     >React</span
                   >
@@ -147,10 +147,7 @@
                   >
                 </div>
                 <div class="skills-section__category">
-                  <h2
-                    class="skills-section__category-title"
-                    data-aos="fade-top"
-                  >
+                  <h2 class="skills-section__category-title" data-aos="fade-top">
                     Back-end
                   </h2>
                   <span class="skills-section__item" data-aos="flip-left"
@@ -167,10 +164,7 @@
                   >
                 </div>
                 <div class="skills-section__category">
-                  <h2
-                    class="skills-section__category-title"
-                    data-aos="fade-top"
-                  >
+                  <h2 class="skills-section__category-title" data-aos="fade-top">
                     Databases
                   </h2>
                   <span class="skills-section__item" data-aos="flip-left"
@@ -187,10 +181,7 @@
                   >
                 </div>
                 <div class="skills-section__category">
-                  <h2
-                    class="skills-section__category-title"
-                    data-aos="fade-top"
-                  >
+                  <h2 class="skills-section__category-title" data-aos="fade-top">
                     IoT
                   </h2>
                   <span class="skills-section__item" data-aos="flip-left"
@@ -201,24 +192,16 @@
                   >
                 </div>
                 <div class="skills-section__category">
-                  <h2
-                    class="skills-section__category-title"
-                    data-aos="fade-top"
-                  >
+                  <h2 class="skills-section__category-title" data-aos="fade-top">
                     Mobile
                   </h2>
                   <span class="skills-section__item" data-aos="flip-left"
                     >React Native</span
                   >
-                  <span class="skills-section__item" data-aos="flip-left"
-                    >PWA</span
-                  >
+                  <span class="skills-section__item" data-aos="flip-left">PWA</span>
                 </div>
                 <div class="skills-section__category">
-                  <h2
-                    class="skills-section__category-title"
-                    data-aos="fade-top"
-                  >
+                  <h2 class="skills-section__category-title" data-aos="fade-top">
                     Deployment
                   </h2>
                   <span class="skills-section__item" data-aos="flip-left"
@@ -227,9 +210,7 @@
                   <span class="skills-section__item" data-aos="flip-left"
                     >Docker</span
                   >
-                  <span class="skills-section__item" data-aos="flip-left"
-                    >AWS</span
-                  >
+                  <span class="skills-section__item" data-aos="flip-left">AWS</span>
                   <span class="skills-section__item" data-aos="flip-left"
                     >Digital Ocean</span
                   >
@@ -250,9 +231,7 @@
           <div class="row">
             <div class="col-md-4 portfolio-item" data-aos="flip-left">
               <div class="card">
-                <a
-                  href="https://vast-brook-10993.herokuapp.com/"
-                  target="_blank"
+                <a href="https://vast-brook-10993.herokuapp.com/" target="_blank"
                   ><img
                     class="card-img-top"
                     src="img/portfolio/forums.png"
@@ -264,9 +243,7 @@
                     A simple forum app made up with Node.js, Express, React and
                     MongoDB.
                   </p>
-                  <a
-                    target="_blank"
-                    href="https://vast-brook-10993.herokuapp.com/"
+                  <a target="_blank" href="https://vast-brook-10993.herokuapp.com/"
                     >Link to the app</a
                   >
                 </div>
@@ -274,15 +251,20 @@
             </div>
             <div class="col-md-4 portfolio-item" data-aos="flip-left">
               <div class="card">
-                <a href="#" target="_blank"
+                <a href="https://sandrabentancor.com" target="_blank"
                   ><img
                     class="card-img-top"
-                    src="img/portfolio/placeholder.png"
+                    src="img/portfolio/sandra-bentancor.png"
                     alt="Coming Soon"
                 /></a>
                 <div class="card-body">
-                  <h4 class="card-title">Coming Soon</h4>
-                  <p class="card-text">Project coming soon...</p>
+                  <h4 class="card-title">Sandra Bentancor</h4>
+                  <p class="card-text">
+                    Personal website for a writer, made up using Bootstrap.
+                  </p>
+                  <a target="_blank" href="https://sandrabentancor.com"
+                    >Link to the app</a
+                  >
                 </div>
               </div>
             </div>
@@ -340,13 +322,11 @@
         >
       </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="assets/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init()
     </script>
   </body>
 </html>
